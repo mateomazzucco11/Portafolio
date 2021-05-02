@@ -1,0 +1,16 @@
+.max-width {
+    padding: 0 80px;
+    max-width: 1300px;
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+}
+
+section #home-id{
+    display: flex;
+    min-height: 500px;
+}
+
+section .about {
+    min-height: 636px;
+}

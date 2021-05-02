@@ -1,0 +1,28 @@
+.projects {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 92%, rgba(248,253,45,1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.title-projects {
+    display: flex;
+    justify-content: center;
+}
+
+.title-projects h1{
+    font-size: 60px;
+    margin-top: 80px;
+    color: #07617d;
+}
+
+.content-img-build {
+    display: flex;
+    justify-content: center;
+}
+
+.build-img {
+    z-index: 1;
+    width: 50%;
+    height: 70%;
+}

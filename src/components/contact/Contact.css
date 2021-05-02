@@ -1,0 +1,172 @@
+.container-background {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    z-index: -1;
+}
+
+.img-contact {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.container-inputs div input {
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    padding: 0px 8px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #ffffff;
+}
+
+.input-message textarea {
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    padding: 8px;
+    letter-spacing: 1px;
+    resize: none;
+    background: transparent;
+    color: #ffffff;
+}
+
+.button button {
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    font-size: 17px;
+    padding: 0px 8px;
+    letter-spacing: 1px;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* Title */
+
+.title-contact {
+    padding-top: 30px;
+    display: flex;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-contact h1 {
+    color: yellow;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Wrap */
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+/* Inputs  div*/
+
+.container-inputs {
+    display: inline-block;
+    width: 55%;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.input-name {
+    display: inline-block;
+    width: 47%;
+    margin-right: 24px;
+}
+
+.input-email {
+    display: inline-block;
+    width: 48%;
+}
+
+.input-subject {
+    margin-top: 24px;
+    width: 100%;
+}
+
+.input-message {
+    margin-top: 24px;
+    width: 100%;
+    height: 150px;
+}
+
+.button {
+    margin-top: 24px;
+    width: 100%;
+    height: 45px;
+}
+
+/* inputs */
+
+.input-name .fullname {
+    width: 100%;
+    height: 35px;
+}
+
+.input-email .email {
+    width: 100%;
+    height: 35px;
+}
+
+.input-subject .subject {
+    width: 100%;
+    height: 35px;
+}
+
+.input-message .message{
+    width: 100%;
+    height: 150px;
+}
+
+.button button {
+    width: 65%;
+    height: 45px;
+}
+
+/* Social media */
+
+.container-social-media {
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    font-size: 55px;
+    padding-top: 80px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-gh svg:hover {
+    color: #211F1F;
+}
+
+.icon-tw svg:hover {
+    color: #1DA1F2;
+}
+
+.icon-lk svg:hover {
+    color: #0e76a8;
+}
+
+.icon-ig svg:hover {
+    color: #fbad50;
+}
+
+.social-media a:visited {
+    color: yellow;
+}

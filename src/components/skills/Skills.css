@@ -1,0 +1,121 @@
+.max-width.skills {
+    width: 100%;
+    height: 45vh;
+}
+
+.container-skills-img {
+    position: absolute;
+    width: 100%; 
+    height: 45vh; 
+    z-index: -1;
+}
+
+.imagen {
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    border-radius: 6px;
+}
+
+.title-skills {
+    user-select: none;
+    padding: 20px 0;
+    height: 120px;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.wrapper-icons .icon{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 60px;
+}  
+
+/* Icons colors */
+
+.icon.html svg {
+    color: #e34f26;
+}
+
+.icon.css svg {
+    color: #2965f1;
+}
+
+.icon.js svg {
+    color: #323330;
+    border-radius: 8px;
+    background: #ffe600;
+}
+
+.icon.sass svg {
+    color: #c69;
+}
+
+.icon.react svg {
+    color: #61DBFB;
+}
+
+.icon.ts svg {
+    color: #007acc;
+    border-radius: 8px;
+    background: #fff;
+}
+
+/* Icons hover */
+
+.icon.html svg:hover {
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+.icon.css svg:hover {
+    color: #2965f1;
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+.icon.js svg:hover {
+    color: #323330;
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+.icon.sass svg:hover {
+    color: #c69;
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+.icon.react svg:hover {
+    color: #61DBFB;
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+.icon.ts svg:hover {
+    color: #007acc;
+    animation: bounce 2s, letterup .5s forwards;
+}
+
+@keyframes bounce {
+    0%,
+    25%,
+    50%,
+    75%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-12px);
+    }
+  }
+
+@keyframes letterup {
+    from {
+        font-size: 60px;
+    }
+    to {
+        font-size: 70px;
+    }
+}
