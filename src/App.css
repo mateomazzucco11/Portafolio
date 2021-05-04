@@ -53,6 +53,7 @@ body {
   }
   .container-home {
     padding: 0 !important;
+    margin: 0px 25px;
   }
   .container-home div{
     font-size: 20px;
