@@ -1,8 +1,8 @@
 .container-navegation {
     position: fixed;
-    top: 27%;
+    top: 20%;
     right: 25px;
-    width: 80px;
+    max-width: 900px;
     text-align: right;
 }
 

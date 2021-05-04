@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
 .about{
-    background: linear-gradient(to bottom, #000000 0%, #ffffff 17%);
+    background-image: linear-gradient(to bottom, #1a1a1a, #3e3e3e, #666666, #919191, #bfbfbf, #d2d0d5, #e8e2ea, #fff3ff, #ffe8f7, #ffe1d0, #ffe99c, #f8fd7d);
     height: 100vh;
     width: 100%;
 }
 
 .about-container {
-    padding: 40px;
+    padding: 50px;
     color: #4b4b4bc2;
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 .about-container h4 {
-    margin-top: 120px;
-    margin-bottom: 60px;
+    margin-top: 25px;
     width: 100%;
     color: #07617d;
     text-align: center;
-    font-size: 38px;
+    font-size: 48px;
     letter-spacing: 2px;
-    padding-bottom: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.vl-line {
+    border-left: 4px solid #11637cd2;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    height: 45px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .about-container p span {
@@ -27,6 +41,22 @@
 .about-container p {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 50px;
+    font-size: 30px;
     width: 100%;
+}
+
+.about-text p .html {
+    color: #e34f26;
+}
+
+.about-text p .css {
+    color: #2965f1;
+}
+
+.about-text p .js {
+    color: #ffe600;
+}
+
+.about-text p .react {
+    color: #61DBFB;
 }

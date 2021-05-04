@@ -24,7 +24,8 @@
     height: 120px;
     font-size: 35px;
     text-align: center;
-    color: black;
+    color: #07617d;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .wrapper-icons .icon{
@@ -64,36 +65,16 @@
     background: #fff;
 }
 
+.icon.git svg {
+    color: #FFFFFF;
+}
 /* Icons hover */
 
-.icon.html svg:hover {
+.icon svg:hover {
     animation: bounce 2s, letterup .5s forwards;
 }
 
-.icon.css svg:hover {
-    color: #2965f1;
-    animation: bounce 2s, letterup .5s forwards;
-}
 
-.icon.js svg:hover {
-    color: #323330;
-    animation: bounce 2s, letterup .5s forwards;
-}
-
-.icon.sass svg:hover {
-    color: #c69;
-    animation: bounce 2s, letterup .5s forwards;
-}
-
-.icon.react svg:hover {
-    color: #61DBFB;
-    animation: bounce 2s, letterup .5s forwards;
-}
-
-.icon.ts svg:hover {
-    color: #007acc;
-    animation: bounce 2s, letterup .5s forwards;
-}
 
 @keyframes bounce {
     0%,

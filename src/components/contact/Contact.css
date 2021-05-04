@@ -21,6 +21,7 @@
     letter-spacing: 1px;
     background: transparent;
     color: #ffffff;
+    box-shadow: 2px 2px 8px #f3f3f3;
 }
 
 .input-message textarea {
@@ -32,6 +33,11 @@
     resize: none;
     background: transparent;
     color: #ffffff;
+    box-shadow: 2px 2px 8px #f3f3f3;
+}
+
+.input-message textarea:focus {
+    background: transparent;
 }
 
 .button button {
@@ -44,6 +50,7 @@
     letter-spacing: 1px;
     background: transparent;
     color: #ffffff;
+    box-shadow: 2px 2px 8px #f3f3f3;
 }
 
 /* Title */
@@ -54,10 +61,11 @@
     height: 100px;
     align-content: center;
     justify-content: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .title-contact h1 {
-    color: yellow;
+    color: #07617d;
     font-size: 60px;
     text-align: center;
 }
@@ -82,7 +90,7 @@
 
 .input-name {
     display: inline-block;
-    width: 47%;
+    width: 48%;
     margin-right: 24px;
 }
 
@@ -135,6 +143,10 @@
     height: 45px;
 }
 
+.button:active {
+    transform: translateY(5px);
+}
+
 /* Social media */
 
 .container-social-media {
@@ -142,31 +154,49 @@
     width: 35%;
     height: 300px;
     font-size: 55px;
-    padding-top: 80px;
+    transition: 0.5s ease-in-out;
 }
 
 .social-media {
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: rgb(134, 134, 134);
+}
+
+.social-media a {
+    padding: 20px 0;
 }
 
 .icon-gh svg:hover {
     color: #211F1F;
+    animation: iconsup 1s forwards;
 }
 
 .icon-tw svg:hover {
     color: #1DA1F2;
+    animation: iconsup 1s forwards;
 }
 
 .icon-lk svg:hover {
     color: #0e76a8;
+    animation: iconsup 1s forwards;
 }
 
 .icon-ig svg:hover {
     color: #fbad50;
+    animation: iconsup 1s forwards;
 }
 
 .social-media a:visited {
-    color: yellow;
+    color: rgb(134, 134, 134);
+}
+
+@keyframes iconsup {
+    from {
+        font-size: 55px;
+    }
+    to {
+        font-size: 65px;
+    }
 }

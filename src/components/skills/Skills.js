@@ -3,6 +3,7 @@ import './Skills.css'
 import coverImg from '../../media/yellow-skills.jpg'
 import { FaHtml5, FaCss3Alt, FaSass, FaReact, } from 'react-icons/fa'
 import { SiTypescript, SiJavascript } from 'react-icons/si'
+import { DiGit } from 'react-icons/di'
 
 function Skills() {
     return(
@@ -32,6 +33,9 @@ function Skills() {
                     </div>
                     <div className='icon sass'>
                         <FaSass />
+                    </div>
+                    <div className='icon git'>
+                        <DiGit />
                     </div>
                 </div>
             </div>
