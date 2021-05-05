@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.274a4513.chunk.css",
+    "main.js": "/Portafolio/static/js/main.1cee7fde.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.1cee7fde.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.3de99418.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.3de99418.js.map",
+    "static/js/2.a0c9a666.chunk.js": "/Portafolio/static/js/2.a0c9a666.chunk.js",
+    "static/js/2.a0c9a666.chunk.js.map": "/Portafolio/static/js/2.a0c9a666.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "static/css/main.274a4513.chunk.css.map": "/Portafolio/static/css/main.274a4513.chunk.css.map",
+    "static/js/2.a0c9a666.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.a0c9a666.chunk.js.LICENSE.txt",
+    "static/media/background-contact.ebc513ac.jpg": "/Portafolio/static/media/background-contact.ebc513ac.jpg",
+    "static/media/building.1e8a845a.png": "/Portafolio/static/media/building.1e8a845a.png",
+    "static/media/test3.8b473a6d.mp4": "/Portafolio/static/media/test3.8b473a6d.mp4",
+    "static/media/yellow-skills.08035c35.jpg": "/Portafolio/static/media/yellow-skills.08035c35.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3de99418.js",
+    "static/js/2.a0c9a666.chunk.js",
+    "static/css/main.274a4513.chunk.css",
+    "static/js/main.1cee7fde.chunk.js"
+  ]
+}
